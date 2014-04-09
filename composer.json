@@ -13,8 +13,8 @@
     },
     "repositories": [
         {
-            "type": "git",
-            "url": "http://github.com/vivk17/DebugFunctions",
+			"type": "git",
+			"url": "http://github.com/vivk17/DebugFunctions",
 			"url": "http://github.com/vivk17/ZF2Module"
         }
     ]
