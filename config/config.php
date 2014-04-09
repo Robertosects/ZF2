@@ -10,12 +10,14 @@ if ($env != 'production')
 $string_key = 'dsfsdf6fwg34sdddfasdf243x';
 $congig = array(
     'modules' => array(
-		'Main'
+		'Main',
 	),
 	'module_listener_options' => array(
 		'module_paths' => array(
 			'./module',
 			'./vendor',
+			//'Main' => './vendor/vivk17/ZF2Module/Main',
+			'Main\*' => './vendor/vivk17/ZF2Module',
 		),
 		'config_cache_enabled' => ($env == 'production'),
 		'config_cache_key' => $string_key,

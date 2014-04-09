@@ -8,12 +8,14 @@
     "require": {
         "php": ">=5.4.0",
 		"zendframework/zendframework": "2.3.*",
-		"vivk17/DebugFunctions": "dev-master"
+		"vivk17/DebugFunctions": "dev-master",
+		"vivk17/ZF2Module": "dev-master"
     },
     "repositories": [
         {
             "type": "git",
-            "url": "http://github.com/vivk17/DebugFunctions"
+            "url": "http://github.com/vivk17/DebugFunctions",
+			"url": "http://github.com/vivk17/ZF2Module"
         }
     ]
 }
